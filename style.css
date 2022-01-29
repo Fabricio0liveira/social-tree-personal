@@ -18,7 +18,7 @@ body {
 .container {
     position: relative;
     background: #ADC2F0;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     height: 100vh;
 }
@@ -40,7 +40,7 @@ body {
 
 .name {
     color: rgb(46, 44, 44);
-    font-size: 17px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ body {
 
 .links {
     width: 70%;
-    margin: 30px auto;    
+    margin: 30px auto;
     padding: 5px;
     border: 2px solid #4587F0;
     border-radius: 10px;
@@ -94,3 +94,29 @@ body {
     font-size: 12px;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .profile-picture {
+        margin: 10px 0;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+
+    .links {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .text-footer {
+        bottom: 5px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .links {
+        width: 45%;
+    }
+}
+
