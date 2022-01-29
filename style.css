@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    text-align: center;   
+}
+
+.container {
+    position: relative;
+    background: #4267B2;
+    width: 60%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.profile-picture {
+    width: 200px;
+    margin: 50px 0 20px 0;
+    border: 2px solid #006AFF;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.profile-picture:hover {
+    width: 210px;
+    border: 2px solid rgba(52, 52, 243, 0.1);
+    transition: .2s;
+    box-shadow: 5px 5px 12px black;
+}
+
+.name {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.content-links {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px  0;
+}
+
+.links {
+    width: 70%;
+    margin: 30px auto;    
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.links:hover {
+    background: #4285F4;
+    transition: .5s;
+}
+
+.links-icons {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-icons {
+    width: 30px;
+    margin: 15px 8px;
+}
+
+.image-icons:hover {
+    width: 32px;
+}
+
+.text-footer {
+    position: absolute;
+    width: 100%;    
+    bottom: 0;
+
+    font-size: 12px;
+    font-weight: 600;
+}
