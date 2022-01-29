@@ -107,6 +107,20 @@ body {
     font-weight: 600;
 }
 
+@media (max-width: 450px) {
+    .container {
+        width: 100%;
+    }
+
+    .profile-picture {
+        width: 150px;
+    }
+
+    .text-footer {
+        position: static;
+    }
+}
+
 @media (max-width: 768px) {
     .profile-picture {
         margin: 10px 0;
