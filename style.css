@@ -44,6 +44,12 @@ body {
     font-weight: bold;
 }
 
+.name:hover {
+    text-shadow: 5px 5px 12px black;
+    /* color: white; */
+    transition: .5s;
+}
+
 .content-links {
     width: 60%;
     margin: 0 auto;
@@ -61,12 +67,18 @@ body {
 
 .links:hover {
     background: rgba(52, 52, 243, 0.2);
+    box-shadow: 2px 2px 12px black;
     transition: .5s;
 }
 
 .links, a {
     color: rgb(46, 44, 44);
 }
+
+/* .links, a:hover {
+    color: white;
+    transition: .5s;
+} */
 
 .links-icons {
     width: 80%;
